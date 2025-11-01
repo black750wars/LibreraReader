@@ -117,9 +117,9 @@ android {
         fdroid {
             minSdk = project.minFDroidSdk
             dimension = "version"
-            applicationId = "com.foobnix.pro.pdf.reader"
+            applicationId = "com.foobniz.pro.pdf.reader"
             manifestPlaceholders = [
-                    appName      : "Librera FD",
+                    appName      : "Librera FDZ",
                     appIcon      : "@mipmap/icon_pdf_pro",
                     appRoundIcon : "@mipmap/icon_pdf_pro",
                     appGdriveKey : "",
@@ -132,9 +132,9 @@ android {
         }
         librera {
             dimension = "version"
-            applicationId = "com.foobnix.pdf.reader"
+            applicationId = "com.foobniz.pdf.reader"
             manifestPlaceholders = [
-                    appName      : "Librera",
+                    appName      : "LibreraZ",
                     appIcon      : "@mipmap/icon_pdf_reader",
                     appRoundIcon : "@mipmap/icon_pdf_reader",
                     appGdriveKey : librera_appGdriveKey,
@@ -147,9 +147,9 @@ android {
 
         pro {
             dimension = "version"
-            applicationId = "com.foobnix.pro.pdf.reader"
+            applicationId = "com.foobniZ.pro.pdf.reader"
             manifestPlaceholders = [
-                    appName      : "Librera",
+                    appName      : "LibreraZ",
                     appIcon      : "@mipmap/icon_pdf_pro",
                     appRoundIcon : "@mipmap/icon_pdf_pro",
                     appGdriveKey : pro_appGdriveKey,
